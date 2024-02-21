@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("assets/fonts/static/Inter-Bold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrap-content {
+    background-color: #1F1F1F;
+    height: 500px;
+    max-height: 100%;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.avatar {margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar > img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.title {
+    height: 110px;
+    max-height: 100%;
+    text-align: center;
+}
+
+#title-name {
+    padding-top: 15px;
+    font-weight: bold;
+    color: #B1B1B1;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+#title-hometown {
+    padding-top: 5px;
+    font-weight: bold;
+    color: #92AB53;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+}
+#title-content {
+    padding-top: 20px;
+    font-weight: lighter;
+    color: #B1B1B1;
+    font-size: 15px;
+    
+}
+.list-app{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.list-app > li {
+    height: 35px;
+    margin-top: 10px;
+    background-color: #333333;
+    text-align: center;
+    color: #B1B1B1;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 5px;
+}
+li:hover {
+    background-color: #C4F82A;
+    color: black;
+}
